@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => (
   <div>
@@ -13,12 +14,13 @@ const Home = () => (
             <div class="form-row">
               <div class="col-12 col-md-3">
                   <form>
-                  <button formaction="http://www.stackoverflow.com" type="submit" class="btn btn-block btn-lg btn-primary">Sensory Haven Near Me</button>
+                  <Link to='/safehaven' class="btn btn-block btn-lg btn-primary">Sensory Haven Near Me</Link>
                   </form>
               </div>
+              <br />
               <div class="col-12 col-md-3">
                   <form>
-                  <button formaction="http://www.stackoverflow.com" type="submit" class="btn btn-block btn-lg btn-primary">My Accessibility Needs</button>
+                  <Link to='/profile' class="btn btn-block btn-lg btn-primary">My Accessibility Needs</Link>
                   </form>
               </div>
             </div>
@@ -28,5 +30,9 @@ const Home = () => (
     </div>
   </div>
 )
-
+/*
+<li><Link to='/'>Home</Link></li><
+  li><Link to='/profile'>Profile</Link></li>
+        <li><Link to='/map'>Map</Link></li>
+        */
 export default Home
