@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import { Switch, Route } from 'react-router-dom'
 
-const Profile = () => (
-    <h1>PROFILE TODO</h1>
+const Maps = () => (
+    <div>
+        <h1>MAPS TODO</h1>
+    </div>
   )
   /*
   <Switch>
@@ -13,4 +15,4 @@ const Profile = () => (
   */
   
   
-  export default Profile
+  export default Maps
