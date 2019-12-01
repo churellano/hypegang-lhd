@@ -11,11 +11,7 @@ const Header = () => (
       <ul>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/profile'>Profile</Link></li>
-<<<<<<< HEAD
         <li><Link to='/map'>Map</Link></li>
-=======
-        <li><Link to='/maps'>Maps</Link></li>
->>>>>>> 0ebd6dbfc62717a2d56d2228b45426fe8b1f19ae
       </ul>
     </nav>
   </header>
