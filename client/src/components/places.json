@@ -2,19 +2,19 @@
     {
         "id": 1,
         "name": "Wreck Beach",
-        "latitude": "49.262258",
-        "longitude": "-123.261497"
+        "lat": "49.262258",
+        "lng": "-123.261497"
     },
     {
         "id": 2,
         "name": "Koerner Library",
-        "latitude": "49.266782",
-        "longitude": "-123.255105"
+        "lat": "49.266782",
+        "lng": "-123.255105"
     },
     {
         "id": 3,
         "name": "UBC Education Library",
-        "latitude": "49.263977",
-        "longitude": "-123.253111"
+        "lat": "49.263977",
+        "lng": "-123.253111"
     }
   ]
