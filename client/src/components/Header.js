@@ -8,8 +8,8 @@ const Header = () => (
     <nav>
       <ul>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/roster'>Roster</Link></li>
-        <li><Link to='/schedule'>Schedule</Link></li>
+        <li><Link to='/profile'>Profile</Link></li>
+        <li><Link to='/map'>Map</Link></li>
       </ul>
     </nav>
   </header>
